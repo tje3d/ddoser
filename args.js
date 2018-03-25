@@ -3,7 +3,7 @@ const ArgumentParser = require('argparse').ArgumentParser;
 var parser = new ArgumentParser({
     version: '1.0.0',
     addHelp: true,
-    description: 'Nodejs DDoser',
+    description: 'DDoS Stress Tool',
     usage: 'ddoser -t http://localhost -n 1000 -c 50 -p 20'
 });
 
